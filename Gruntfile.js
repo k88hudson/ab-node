@@ -81,7 +81,8 @@ module.exports = function (grunt) {
           mainConfigFile: './src/main.js',
           include: ['main'],
           paths: {
-            'templates': '../dist/templates'
+            'templates': '../dist/templates',
+            'gaLoader': '../dist/ga-amd'
           },
           out: './dist/main.js'
         }
