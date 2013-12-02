@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Hi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="ga-account" content="{{ga_account}}">
+    <meta name="ga-domain" content="{{ga_domain}}">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    {% if MEAN %}
+    <h1>GIVE MONEY!!!!!!!</h1>
+    {% else %}
+    <h1>Donate please</h1>
+    {% endif %}
+    <form>
+      $<input name="amount" placeholder="20.00">
+      <button id="donate">Donate</button>
+    </form>
+    <script src="/bower_components/requirejs/require.js" data-main="main"></script>
+  </body>
+</html>

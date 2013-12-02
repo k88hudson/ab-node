@@ -1,0 +1,9 @@
+{
+  "name": "ab-node",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "nunjucks": "1.0.0",
+    "requirejs": "~2.1.8"
+  }
+}
